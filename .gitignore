@@ -5,8 +5,7 @@ node_modules/
 # Файлы
 *.txt
 package-lock.json
-package.json
-webpack.config.js
+
 
 # Игнорировать build-файлы созданные приложениями
 
