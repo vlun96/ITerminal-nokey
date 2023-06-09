@@ -1,14 +1,11 @@
 # Каталоги
-
+node_modules/
 
 
 # Файлы
-*.log
 *.txt
-*.map
-*.DS_Store
-*.env
-*.idea/
+package.*
+webpack.config.*
 
 # Игнорировать build-файлы созданные приложениями
 /.vscode
