@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "serve": "^14.2.0",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1"
+  },
+  "name": "iterminal",
+  "version": "1.4.6",
+  "main": "index.js",
+  "scripts": {
+    "mode": "none",
+    "build": "webpack",
+    "dev": "node dist/bundle.js",
+    "serve": "serve \"./dist\" -S",
+    "start": "webpack-dev-server",
+    "r": "npm run build && npm run serve"
+  },
+  "keywords": [],
+  "author": "Vladimir Lunegov",
+  "license": "ISC",
+  "description": "Aplication dialogue ChateGPT v3.5.2",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack-dev-server": "^4.15.0"
+  }
+}

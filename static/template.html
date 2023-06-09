@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="idContainer">
+        <h1 class="title">ITerminal v.1.4.6</h1>
+        <textarea class="dialogue_user" id=txtOutput
+            rows="25" contenteditable="false"></textarea>
+
+        <div>
+            <button class="btnSend"
+                type="button">Отправить</button>
+            <select class="chatModel">
+                <option value="gpt-3.5-turbo">
+                    gpt-3.5-turbo</option>
+                <option value="gpt-3.5-turbo-0301">
+                    gpt-3.5-turbo-0301</option>
+                <option value="text-davinci-003">
+                    text-davinci-003</option>
+                <option value="text-davinci-002">
+                    text-davinci-002</option>
+            </select>
+
+            <select class="selectLang">
+                <option value="ru-RU">Русский</option>
+                <option value="en-US">Английский</option>
+                <option value="fr-FR">Французский</option>
+                <option value="de-DE">Немецкий</option>
+            </select>
+            </select>
+            <select class="setAPIkey"></select>
+            <span class="message_to_user">
+            </span>
+        </div>
+
+        <textarea class="input-text" type="text" id="txtMsg"
+            rows="4" placeholder="Пишите здесь"></textarea>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(225, 197, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(171, 194, 216)
+}
+
+.idContainer h1 {
+    position: absolute;
+    top: -7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+}
+
+.idContainer textarea {
+    position: relative;
+    display: flex;
+}
+
+.idContainer textarea#txtOutput {
+    width: 50vw;
+    height: 60vh;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    background-color: gainsboro;
+}
+
+.btnSend {
+    background-color: rgb(37, 74, 130);
+    color: white;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.chatModel,
+.selectLang {
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+option {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.message_to_user {
+    color: brown;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-text {
+    width: 50vw;
+    height: 10vh;
+    margin-left: 0.2em;
+    margin-top: 0.4em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    background-color: gainsboro;
+}
