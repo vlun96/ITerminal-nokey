@@ -1,11 +1,12 @@
 # Каталоги
 node_modules/
-
+/.vscode
 
 # Файлы
 *.txt
-package.*
-webpack.config.*
+package-lock.json
+package.json
+webpack.config.js
 
 # Игнорировать build-файлы созданные приложениями
-/.vscode
+
